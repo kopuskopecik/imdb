@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
         <Switch>
           <Route path="/details/:id" component ={MovieDetails} />
           <Route path="/" component = {Movie} />
